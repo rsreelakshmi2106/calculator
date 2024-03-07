@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+body{
+    background-color: rgb(243, 238, 253);
+}
+h1{
+    font-family: 'Protest Riot', sans-serif;
+}
+#calcbody {
+    /* background-color: rgb(180, 135, 135); */
+    width: 25%;
+    background-color: #000000;
+    border: 2px solid #9a9a9a;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px;
+    padding: 20px;
+}
+#result {
+    font-size: 24px;
+    text-align: right;
+    border: 2px solid #727a84;
+    border-radius: 10px;
+}
+.btn {
+    width: 100%;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+}
+.btn:hover{
+    box-shadow: 2px 2px 2px gray;
+}
+.btn-light {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-light:hover {
+    background-color: #9a9a9a;
+    color: #ffffff;
+}
+
+.btn-dark {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #333;
+}
+#ac,#del{
+    background-color: rgb(160, 28, 28);
+    color: white;
+}
+#ac:hover {
+    background-color: #4e72ff;
+    color: #ffffff;
+}
+#minus,#plus,#multi,#divide{
+    background-color: orange;
+}
+#minus:hover,#plus:hover,#multi:hover,#divide:hover{
+    background-color: rgb(255, 102, 0);
+}
+#del:hover{
+    background-color: red;
+}
+#equal:hover{
+    background-color: #28ce5a;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    #calcbody {
+        width: 80%;
+        padding: 10px;
+    }
+
+    #result {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 5px;
+        margin: 2px;
+    }
+
+    .btn-dark {
+        height: 50px;
+    }
+}
